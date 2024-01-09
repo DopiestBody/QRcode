@@ -1,6 +1,6 @@
 import qrcode
 
-data = "Hello world!"
+data = input("Enter the information")
 
 qr = qrcode.QRCode(version=3,box_size=5,border=7)
 
